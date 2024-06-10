@@ -1,0 +1,10 @@
+.nav__right-controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav__right-secondItem { display: none }
+}
